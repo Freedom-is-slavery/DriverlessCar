@@ -28,3 +28,5 @@
 | Dropout | 随机失活 | 1\*256 |
 | 全连接 | 256\*(classnumber) |1\*256 |
 | Softmax | probabilities | (classnumber) |
+
+**注意：最后实现的方案鲁棒性较差，建议之后改进识别模型时，先对背景作剔除处理**
