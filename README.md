@@ -2,17 +2,19 @@
 
 **注意：最后实现的那套代码方案在deep_learning2文件夹内，且该repository不包含采集的数据图片样本**
 
-本项目是基于Raspberry Pi 3B+嵌入式系统的无人驾驶小车设计
+本项目是基于Raspberry Pi 3B+嵌入式系统的无人驾驶小车设计。
+
+2017级浙江大学电气工程学院爱迪生实验班信号分析与处理项目设计
 
 ## 1 预处理
 
 包含调用OpenCV的过滤、色彩空间转换等预处理方法
 
-## 2 特征点检测和匹配
+## 2 特征点检测和匹配（尝试过，后来弃了）
 
 包含调用OpenCV的SIFT、SURF、ORB算法及其比较
 
-## 3 CNN模型
+## 3 Machine Learning方法（CNN模型）
 
 包含一个卷积神经网络模型，包括两个Convolution + Pooling layer、全连接层、Dropout、全连接层、Softmax输出层
 
