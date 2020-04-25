@@ -1,6 +1,6 @@
 # DriverlessCar
 
-**注意：最后实现的那套代码方案在deep_learning2文件夹内**
+**注意：最后实现的那套代码方案在deep_learning2文件夹内，且该repository不包含采集的数据图片样本**
 
 本项目是基于Raspberry Pi 3B+嵌入式系统的无人驾驶小车设计
 
