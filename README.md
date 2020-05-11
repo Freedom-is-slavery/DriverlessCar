@@ -16,9 +16,10 @@
 
 均需要建立交通标志和交警手势的模板库，一些demo如下：
 
-![ ](.\illustration\template1.jpg)
 
-![ ](.\illustration\template2.jpg)
+![ ](illustration/template1.jpg)
+
+![ ](illustration/template2.jpg)
 
 1. 模板匹配（Template Match）
 
