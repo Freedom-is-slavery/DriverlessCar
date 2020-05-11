@@ -31,8 +31,8 @@
 
     - ORB（Oriented FAST and Rotated BRIEF）
 
-    ![ ](illustration\matchtest1.jpg) ![ ](illustration\matchtest2.jpg)
-    ![ ](illustration\matchtest3.jpg) ![ ](illustration\matchtest4.jpg)
+    ![ ](illustration/matchtest1.jpg) ![ ](illustration/matchtest2.jpg)
+    ![ ](illustration/matchtest3.jpg) ![ ](illustration/matchtest4.jpg)
 
 ## Machine Learning方法（CNN模型）
 
@@ -40,7 +40,7 @@
 
     前前后后估摸着采集了近万张的图片......
 
-    ![ ](illustration\trainingsp1.jpg) ![ ](illustration\trainingsp2.jpg)
+    ![ ](illustration/trainingsp1.jpg) ![ ](illustration/trainingsp2.jpg)
 
 2. 图片数据预处理
 
@@ -108,7 +108,7 @@ def parse_arguments(argv):
 
 6.部分模型测试结果呈现
 
-![ ](.\illustration\trainingres1.jpg) ![ ](.\illustration\trainingres2.jpg)
+![ ](illustration/trainingres1.jpg) ![ ](illustration/trainingres2.jpg)
 
 ## Notes
 
