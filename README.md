@@ -37,7 +37,7 @@
     ![ ](.\illustration\matchtest3.jpg)
     ![ ](.\illustration\matchtest4.jpg)
 
-## 3 Machine Learning方法（CNN模型）
+## Machine Learning方法（CNN模型）
 
 1. 训练样本采集
 
