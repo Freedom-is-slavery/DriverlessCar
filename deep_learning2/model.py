@@ -23,24 +23,22 @@ def model(x, keep_prob):
         W_conv1 = weight_variable([3, 3, 1, 16], name="weight")  
         b_conv1 = bias_variable([16], name='bias')
         # 第一层卷积层，输出128*128*16
-        h_conv1 = tf.nn.relu(
-            tf.nn.conv2d(x_image, W_conv1, strides=[1,1,1,1], padding="SAME", name='conv')  
-            + b_conv1)
+        h_conv1 = tf.nn.relu(tf.nn.conv2d(x_image, W_conv1, strides=[1,1,1,1], 
+                            padding="SAME", name='conv') + b_conv1)
         # 第一层池化层，输出64*64*16
         h_pool1 = tf.nn.max_pool(h_conv1, ksize=[1,2,2,1], strides=[1,2,2,1],  
-                                 padding="SAME", name="pool")
+                                padding="SAME", name="pool")
   
     # Conv2第二层
     with tf.name_scope('conv2'):  
         W_conv2 = weight_variable([3, 3, 16, 32], name="weight")  
         b_conv2 = bias_variable([32], name='bias')
         #第二层卷积层，输出64*64*32
-        h_conv2 = tf.nn.relu(  
-            tf.nn.conv2d(h_pool1, W_conv2, strides=[1,1,1,1], padding="SAME", name='conv')  
-            + b_conv2)
+        h_conv2 = tf.nn.relu(tf.nn.conv2d(h_pool1, W_conv2, strides=[1,1,1,1], 
+                            padding="SAME", name='conv') + b_conv2)
         #第二层池化层，输出32*32*32
         h_pool2 = tf.nn.max_pool(h_conv2, ksize=[1,2,2,1], strides=[1,2,2,1],  
-                                 padding="SAME", name="pool")  
+                                padding="SAME", name="pool")  
   
     # fc1 全连接层1
     with tf.name_scope('fc1'):  
